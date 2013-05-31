@@ -1,24 +1,23 @@
 Gem::Specification.new do |s|
 
   # Release Specific Information
-  s.name = "compass-retina-sprites"
-  s.version = "0.0.1"
-  s.date = "2012-09-15"
+  s.name = "compass-placeholder"
+  s.version = "0.0.0"
+  s.date = "2013-05-31"
 
   # Author Information
   s.authors = ["Tingan Ho"]
   s.email = "tingan@clockies.com"
-  s.homepage = "http://github.com/tinganho/compass-retina-sprites"
+  s.homepage = "http://github.com/tinganho/compass-placeholder"
 
   # Project Description
-  s.rubyforge_project = "compass-retina-sprites"
-  s.summary = %q{Auto production of retina sprites}
-  s.description = %q{Auto production of retina sprites}
+  s.rubyforge_project = "compass-placeholder"
+  s.summary = %q{Style placeholder text}
+  s.description = %q{Style placeholder text}
 
   # Files to Include
   s.files = %w(README.md)
   s.files += Dir.glob("lib/**/*.*")
-  s.files += Dir.glob("stylesheets/*.*")
   s.files += Dir.glob("stylesheets/**/*.*")
 
   # Gem Bookkeeping
