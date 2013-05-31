@@ -1,9 +1,7 @@
 Compass-placholder
-=========================
+==================
 
-Style your web pages using pre-defined classes with very commonly used CSS properties.
-
-Use Stylewithclass if you want to achieve DRY(Don't-repeat-yourself) CSS code. If you use Stylewithclass, you will end up re-using a lot of CSS code, because it uses pre-defined classes with very commonly used CSS properties.
+SASS mixin for styling placeholders
 
 Installation
 ============
@@ -17,7 +15,23 @@ Require it using Compass in config.rb:
     # Edit the project configuration file and add:
     require 'compass-placeholder'
 
+Usage
+=====
+
 Import it in your sass/scss file.
 
-    @import "compass-placeholder"
+```ruby
+@import "compass-placeholder"
+```
 
+then use `@include placehholder`:
+
+```ruby
+input {
+    @include placehholder {
+        color: #999;
+        font-size: 13px;
+    }
+}
+
+```
