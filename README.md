@@ -1,4 +1,4 @@
-Compass-placholder
+Compass-placeholder
 ==================
 
 SASS mixin for styling placeholders
@@ -24,11 +24,11 @@ Import it in your sass/scss file.
 @import "compass-placeholder"
 ```
 
-then use `@include placehholder`:
+then use `@include placeholder`:
 
 ```ruby
 input {
-    @include placehholder {
+    @include placeholder {
         color: #999;
         font-size: 13px;
     }
