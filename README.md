@@ -21,7 +21,7 @@ Usage
 Import it in your sass/scss file.
 
 ```ruby
-@import "compass-placeholder"
+@import "compass-placeholder";
 ```
 
 then use `@include placeholder`:
