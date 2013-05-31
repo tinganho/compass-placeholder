@@ -10,15 +10,14 @@ Installation
 
 Install gem from the command line:
 
-    (sudo) gem install stylewithclass
+    (sudo) gem install compass-placeholder
 
 Require it using Compass in config.rb:
 
     # Edit the project configuration file and add:
-    require 'stylewithclass'
+    require 'compass-placeholder'
 
 Import it in your sass/scss file.
 
-    # import Stylewithclass partial into your sass/scss file
-    @import "stylewithclass"
+    @import "compass-placeholder"
 
