@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
 
   # Release Specific Information
   s.name = "compass-placeholder"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
   s.date = "2013-05-31"
 
   # Author Information
